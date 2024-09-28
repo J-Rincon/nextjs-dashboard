@@ -11,7 +11,7 @@ export default function RootLayout({
       <body className={`${montserrat.className} antiliased`}> 
         {children}
         <footer>
-          Powered by <span className="text-blue-500">Midudev</span>
+          Powered by <a href="https://github.com/J-Rincon" target="_blank" rel="noopener noreferrer"><span className="text-blue-500">J-Rincon</span></a>
         </footer>
       </body>
     </html>
